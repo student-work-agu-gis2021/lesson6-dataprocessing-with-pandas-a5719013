@@ -112,7 +112,7 @@ print('Average temperature (F) for the whole dataset:', round(avg_temp, 2))
 avg_temp_1969 = None
 
 # YOUR CODE HERE 8
-avg_temp=
+avg_temp=sum(data[5,8])/len(data[5,8])
 
 #CAUTION!!! DON'T EDIT THIS PART START
 # This test print should print a number
@@ -126,6 +126,7 @@ print('Average temperature (F) for the Summer of 69:', round(avg_temp_1969, 2))
 monthly_data = None
 
 # YOUR CODE HERE 9
+monthly_data=sum(data)/len(data)
 
 #CAUTION!!! DON'T EDIT THIS PART START
 # This test print should print the length of variable monthly_data
