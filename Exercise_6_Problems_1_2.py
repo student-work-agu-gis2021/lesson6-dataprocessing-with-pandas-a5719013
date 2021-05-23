@@ -112,7 +112,7 @@ print('Average temperature (F) for the whole dataset:', round(avg_temp, 2))
 avg_temp_1969 = None
 
 # YOUR CODE HERE 8
-avg_temp=sum(data[5,8])/len(data[5,8])
+avg_temp=sum(data[])/len(data[])
 
 #CAUTION!!! DON'T EDIT THIS PART START
 # This test print should print a number
